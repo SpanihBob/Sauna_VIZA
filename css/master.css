@@ -1,0 +1,328 @@
+/* ================================================================================================== */
+/* =======================================              ============================================= */
+/* =======================================   main.php   ============================================= */
+/* =======================================              ============================================= */
+/* ================================================================================================== */
+body{
+    background: gray;
+}
+.container{
+    margin: auto;
+    position: relative;
+    width: 1920px;
+    height: 1200px;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+.telegram{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1108px;
+    top: 21px;
+    background: url(../img/Group.png);
+    background-size: 100%;
+}
+.whatsap{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1073px;
+    top: 21px;
+    background: url(../img/whatsapp-whats-app-svgrepo-com\ 1.png);
+    background-size: 100%;
+}
+.placePoint{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 681px;
+    top: 18px;
+    background: url(../img/place-point-svgrepo-com\ \(1\)\ 1.png);
+    background-size: 100%;
+}
+.visa{
+position: absolute;
+width: 49px;
+height: 25px;
+left: 387px;
+top: 15px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 44px;
+display: flex;
+align-items: center;
+color: #626262;
+}
+.adress{
+    position: absolute;
+    width: 226px;
+    height: 19px;
+    left: 719px;
+    top: 20px;
+    /* font-family: 'Montserrat';
+    font-style: normal; */
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #626262;
+}
+.phone{
+    position: absolute;
+    width: 161px;
+    height: 19px;
+    left: 1143px;
+    top: 20px;
+    /* font-family: 'Montserrat';
+    font-style: normal; */
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #626262;
+}
+.clean{
+    position: absolute;
+    width: 342px;
+    height: 19px;
+    left: 432px;
+    top: 556px;
+    /* font-family: 'Montserrat';
+    font-style: normal; */
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #626262;
+}
+.design{
+    position: absolute;
+    width: 354px;
+    height: 18px;
+    left: 432px;
+    top: 600px;
+    /* font-family: 'Montserrat';
+    font-style: normal; */
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #626262;
+}
+.capacity{
+    position: absolute;
+    width: 299px;
+    height: 19px;
+    left: 432px;
+    top: 512px;
+    /* font-family: 'Montserrat';
+    font-style: normal; */
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #626262;
+}
+.price{
+    position: absolute;
+    width: 240px;
+    height: 19px;
+    left: 432px;
+    top: 468px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #626262;
+}
+.pick1{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 387px;
+    top: 597px;
+    background: url(../img/check-svgrepo-com\ \(1\)\ 4.png);
+    background-size: 100%;
+}
+.pick2{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 387px;
+    top: 465px;
+    background: url(../img/check-svgrepo-com\ \(1\)\ 4.png);
+    background-size: 100%;
+}
+.pick3{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 387px;
+    top: 509px;
+    background: url(../img/check-svgrepo-com\ \(1\)\ 4.png);
+    background-size: 100%;
+}
+.pick4{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 387px;
+    top: 553px;
+    background: url(../img/check-svgrepo-com\ \(1\)\ 4.png);
+    background-size: 100%;
+}
+#photo1{
+    position: absolute;
+    width: 460px;
+    height: 51px;
+    left: 387px;
+    top: 989px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    cursor: pointer;
+}
+.photo2{
+    position: absolute;
+    height: 91px;
+    left: 387px;
+    top: 939px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    color: #F1F1F1;
+}
+.relax{
+    display: grid;
+    position: absolute;
+    width: 700px;
+    height: 253px;
+    left: 387px;
+    top: 157px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 90px;
+    align-items: center;
+    color: #EA8F41;
+}
+.rect1{
+    position: absolute;
+    width: 196px;
+    height: 35px;
+    left: 1337px;
+    top: 12px;
+    background: #EA8F41;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border:none;
+    box-shadow: 1px 1px 1px gray;
+    cursor: pointer;
+}
+.rect2{
+    position: absolute;
+    width: 264px;
+    height: 45px;
+    left: 387px;
+    top: 673px;
+    background: #EA8F41;
+    border-radius: 5px;    
+    color: #FFFFFF;
+    font-weight: 600;
+    border:none;
+    box-shadow: 1px 1px 1px gray;
+    cursor: pointer;
+}
+.smoke1{
+    position: absolute;
+    width: 2585px;
+    height: 437px;
+    left: -334px;
+    top: 0;
+    background: url(../img/Group\ 4.png);
+    background-size: 100%;
+}
+.smoke2{
+    position: absolute;
+    width: 2654px;
+    height: 437px;
+    left: -665px;
+    top: 452px;
+    background: url(../img/Group\ 3.png);
+    background-size: 100%;
+}
+.stroke{
+    animation: smoke 10s infinite alternate linear;
+}
+@keyframes smoke{
+    0% {
+        
+        transform: translateX(0)
+    }
+    100% {
+        
+        transform: translateX(-3%)
+    }
+}
+
+.bowl{
+    position: absolute;
+    width: 975px;
+    height: 595px;
+    left: 750px;
+    top: 173px;
+    background: url(../img/вектор-кадушка\ 1.png);
+    background-size: 100%;
+}
+.masc2{
+    position: absolute;
+    width: 1920px;
+    height: 850px;
+    left: 0px;
+    top: 0px;
+    background: url(../img/Mask\ group2.png);
+    background-size: 100%;
+}
+.girl{
+    position: absolute;
+    width: 618px;
+    height: 752px;
+    left: 847px;
+    top: 98px;
+    background: url(../img/IMG_0409-removebg-preview\ 1.png);
+    background-size: 100%;
+}
+
+#img2{
+    display: none;
+}
+
+
+    /* ================================================================================================== */
+    /* =======================================              ============================================= */
+    /* =======================================   main.php   ============================================= */
+    /* =======================================              ============================================= */
+    /* ================================================================================================== */
+
+    
+    
