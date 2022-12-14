@@ -21,7 +21,7 @@
         <div class="whatsap"></div>
         <div class="placePoint"></div>
         <div class="visa">Viza</div>
-        <div class="adress">24/7, г. Казань, ул. Минская д. 12</div>
+        <div class="adress1">24/7, г. Казань, ул. Минская д. 12</div>
         <div class="phone">8(843)-259-00-99</div>
         <div class="clean">Уборка антисептиком после каждого гостя</div>
         <div class="design">Дизайнерский ремонт 2022 года</div>

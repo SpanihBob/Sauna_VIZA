@@ -4,7 +4,7 @@
 /* =======================================              ============================================= */
 /* ================================================================================================== */
 body{
-    background: gray;
+    background: rgb(223, 222, 222);
 }
 .container{
     margin: auto;
@@ -42,28 +42,26 @@ body{
     background-size: 100%;
 }
 .visa{
-position: absolute;
-width: 49px;
-height: 25px;
-left: 387px;
-top: 15px;
-font-family: 'Oswald';
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 44px;
-display: flex;
-align-items: center;
-color: #626262;
+    position: absolute;
+    width: 49px;
+    height: 25px;
+    left: 387px;
+    top: 15px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #626262;
 }
-.adress{
+.adress1{
     position: absolute;
     width: 226px;
     height: 19px;
     left: 719px;
     top: 20px;
-    /* font-family: 'Montserrat';
-    font-style: normal; */
     font-weight: 500;
     font-size: 13px;
     line-height: 16px;
@@ -77,8 +75,6 @@ color: #626262;
     height: 19px;
     left: 1143px;
     top: 20px;
-    /* font-family: 'Montserrat';
-    font-style: normal; */
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
@@ -92,8 +88,6 @@ color: #626262;
     height: 19px;
     left: 432px;
     top: 556px;
-    /* font-family: 'Montserrat';
-    font-style: normal; */
     font-weight: 500;
     font-size: 15px;
     line-height: 30px;
@@ -107,8 +101,6 @@ color: #626262;
     height: 18px;
     left: 432px;
     top: 600px;
-    /* font-family: 'Montserrat';
-    font-style: normal; */
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
@@ -122,8 +114,6 @@ color: #626262;
     height: 19px;
     left: 432px;
     top: 512px;
-    /* font-family: 'Montserrat';
-    font-style: normal; */
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
@@ -332,5 +322,69 @@ color: #626262;
     top: 0px;
     background: url(../img/Mask\ group3.png);
     background-size: 100%;
+}
+.whiteLogo{
+    position: absolute;
+    width: 121px;
+    height: 89px;
+    left: 387px;
+    top: 10px;
+    background: url(../img/cee0f6ad414451e895d71e49b18229a2\ 1.png);
+    background-size: 100%;
 } 
-    
+.vector{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 749px;
+    top: 21px;
+    opacity: 0.7;
+    background: url(../img/place-point-svgrepo-com-vector.png);
+    background-size: 100%;
+}
+.adress2{
+    position: absolute;
+    width: 226px;
+    height: 19px;
+    left: 780px;
+    top: 20px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+.whatsap2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1073px;
+    top: 21px;
+    background: url(../img/whatsapp-whats-app-svgrepo-com\ 1.png);
+    background-size: 100%;
+}
+.telegram2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1108px;
+    top: 21px;
+    background: url(../img/Group.png);
+    background-size: 100%;
+}
+.phone2{
+    position: absolute;
+    width: 162px;
+    height: 19px;
+    left: 1143px;
+    top: 21px;
+    /* font-family: 'Montserrat';
+    font-style: normal; */
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
