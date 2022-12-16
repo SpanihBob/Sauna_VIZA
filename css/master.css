@@ -330,10 +330,11 @@ body{
     display: grid;
     justify-content: center;
     align-content: center;
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     background: #111010cf;
+    left: 0;
 }
 .main_modal_window{
     display: grid;
@@ -391,6 +392,7 @@ body{
     height: 20px;
     background: url(../img/Vector_close.png);
     margin: 2px;
+    cursor: pointer;
 }
 
 

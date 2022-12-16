@@ -49,10 +49,14 @@
             window.location.href = '/photoandvideo'
         }
         rect1.onclick = () => {
-            let modal_back = call(1);
+            let modal_back = call(0);
             let container = document.querySelector(".container");
             container.appendChild(modal_back);
-
+        }
+        rect2.onclick = () => {
+            let modal_back = call(2);
+            let container = document.querySelector(".container");
+            container.appendChild(modal_back);
         }
         let color = document.querySelectorAll(".color");
         let toggle = 0;

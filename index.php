@@ -1,6 +1,6 @@
 <? 
     $path = $_SERVER['DOCUMENT_ROOT'];
-    // require_once "$path/system/db.php"; //подкл. к БД
+    require_once "$path/system/db.php"; //подкл. к БД
     session_start();                    //вкл. сессию
     // session_destroy();
 

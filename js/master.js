@@ -16,9 +16,9 @@ function call(i) {
         nameAndText.classList.add("nameAndText");
     let empty = document.createElement("div");
     let name_arr = [
-        ["Заказать звонок","../img/girl_modal_2.png"],
-        ["Забронировать номер","../img/girl_modal_1.png"],
-        ["Забронировать","../img/girl_modal_3.png"]
+        ["Заказать звонок","../img/girl_modal_2.png","callorder"],
+        ["Забронировать номер","../img/girl_modal_1.png","bookingaroom"],
+        ["Забронировать","../img/girl_modal_3.png",""]
     ];
     modal_window.style.background = `url(${name_arr[i][1]})`
     let nameDiv = document.createElement("div");
@@ -55,7 +55,21 @@ function call(i) {
     vector_close.onclick = () => {
         modal_back.remove();
     }
-
+    form.onsubmit = (event) => {
+        event.preventDefault();
+        fetch(`/system/callorder.php`, {
+            method: 'post',
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            },
+            body: `user_name=${input_user_name.value}&user_phone=${input_user_phone.value}&table=${name_arr[i][2]}`,
+        })
+        .then(response => response.text())                                  
+        .then(data => {	
+            // window.location.href = '/fullProduct'
+            console.log("ваша заявка принята");
+        }) 
+    }
 
 
     return modal_back;
