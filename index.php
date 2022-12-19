@@ -8,6 +8,8 @@
     
     if(@$_SERVER['REDIRECT_URL']=="" or $_SERVER['REDIRECT_URL']=="/main")://другой способ записи if else без скобок
         require_once "$path/public/main.php";
+    elseif(@$_SERVER['REDIRECT_URL']=="/bar")://другой способ записи if else без скобок
+        require_once "$path/public/bar.php";
     elseif(@$_SERVER['REDIRECT_URL']=="/photoandvideo")://другой способ записи if else без скобок
         require_once "$path/public/photoandvideo.php";
     else:

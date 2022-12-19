@@ -401,3 +401,77 @@ body{
 /* ===================================   photoandvideo.php   ======================================== */
 /* ===================================                       ======================================== */
 /* ================================================================================================== */
+
+.background_bar{
+    width: 100%;
+    background: url(../img/123\ 1.png);
+    padding: 60px 0 150px 0;
+}
+.bar_header > h1{
+    width: 1000px;
+    height: 51px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    color: #FF7600;
+    margin: auto;
+    position: relative;
+    top: 5px;
+}
+.bar_header{
+    height: 200px;
+}
+.gshost{
+    position: relative;
+    top: 50px;
+    width: 1000px;
+    height: 91px;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    color: #E7E7E7;
+    margin: auto;
+}
+#what{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    width: 1100px;
+    margin: auto;
+}
+#what > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+#what > div > img{
+    border-radius: 5px;
+}
+.what_div > div{
+    font-size: 150%;
+    font-weight: 600;
+}
+.what_div > ul{
+    padding: 0;
+    display: grid;gap: 5px;
+}
+.what_div > ul >li{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    gap: 5px;
+}
+.what_div > ul >li >span{
+   display: block;
+   align-self: center;
+   font-weight: 600;
+}
+.what_li_img{
+    width: 25px;
+    height: 25px;
+}
+
